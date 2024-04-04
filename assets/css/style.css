@@ -251,9 +251,8 @@ a {
   margin: 0 auto;
 }
 .sectbg_text {
- 
   text-align: center;
-  background-image: url(/assets/images/bg.jpeg);
+  background-image: URL(../images/bg.jpeg);
   background-size: cover;
   background-position: center;
   color: #fff;
