@@ -85,17 +85,37 @@ a.nav-link:hover {
   transition: .5s all;
 }
 .services {
- 
+  color: #07125e;
   padding: 80px 0;
 }
-
-.services h3 {
-  font-size: 48px;
+.services p {
+  font-size: 18px;
+  line-height: 32px;
+}
+/* .services h3 {
+  font-size: 32px;
   line-height: 130%;
   color: var(--white2);
   margin:24px 0
+} */
+.why_feature_box {
+  padding: 24px;
+  background-color: #f6f8ff;
+  margin: 14px;
+  width: 30%;
+  transition: .5s all;
 }
 
+.why_feature_box h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+.why_feature_box:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
 .content p {
   margin: 32px 0;
 }
@@ -251,8 +271,9 @@ a {
   margin: 0 auto;
 }
 .sectbg_text {
+ 
   text-align: center;
-  background-image: URL(../images/bg.jpeg);
+  background-image: url(/assets/images/bg.jpeg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -295,8 +316,8 @@ a {
   color: #07125e;
 }
 
-.about h3 {
-  font-size: 36px;
+.title_h3 {
+  font-size: 28px;
   margin: 24px 0;
 }
 
@@ -391,6 +412,26 @@ padding: 12px 0;
 }
 .navbar-toggler:focus {
   box-shadow: none;
+}
+.cus_space {
+  padding: 80px 0;
+}
+
+.title_text {
+  font-size: 32px;
+  color:var(--bg-color);
+  line-height: 48px;
+  color: #07125e;
+  font-weight: 400;
+}
+
+.accordion-item {
+  border: none;
+  margin: 20px 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #FFF;
 }
 
 @media only screen and (max-width: 768px) {
