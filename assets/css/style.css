@@ -273,7 +273,7 @@ a {
 .sectbg_text {
  
   text-align: center;
-  background-image: url(/assets/images/bg.jpeg);
+  background-image: URL(../images/bg.jpeg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -358,7 +358,7 @@ a {
 
 .getintouch {
  
-  background-image: url(/assets/images/getintouch.jpeg);
+  background-image: URL(../images/getintouch.jpeg);
   background-color:var(--primary-color);
   background-size: 50%;
   background-position: right;
